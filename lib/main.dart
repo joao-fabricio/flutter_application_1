@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
                                 ),
 
                                 Transform.translate(
-                                 offset: Offset(0, -2),
+                                 offset: Offset(0, -1),
                                 
                                 child: Container(
                                   width: 45,
@@ -161,8 +161,8 @@ class HomePage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
 
                         children: [
-                          Image.asset('assets/google.png', width: 30, height: 30),
-                          Text("Sing Up withe Google"),
+                          Image.asset('assets/google.png', width: 28, height: 28),
+                          Text("Sing Up with Google"),
                         ],
                       ),
                     ),
